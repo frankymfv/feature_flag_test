@@ -15,8 +15,7 @@
         "collection-view.bulk-change.movement",
         "collection-view.bulk-change.impairment",
         "collection-view.bulk-change.sale",
-        "collection-view.bulk-change.cancel",
-         "collection-view.bulk-change.export" 
+        "collection-view.bulk-change.cancel"
       ]
     },
     "targeting": [
