@@ -1,0 +1,33 @@
+{
+  "features-flag": {
+    "variations": {
+      "all-user": [
+        "corporate-tax",
+        "tax-declaration.corporate-income-tax"
+      ],
+      "not-allow": [],
+      "allow-all": [
+        "corporate-tax",
+        "tax-declaration.corporate-income-tax",
+        "collection-view.bulk-change",
+        "collection-view.bulk-change.retire",
+        "collection-view.bulk-change.start_usage",
+        "collection-view.bulk-change.movement",
+        "collection-view.bulk-change.impairment",
+        "collection-view.bulk-change.sale",
+        "collection-view.bulk-change.cancel"
+      ]
+    },
+    "targeting": [
+      {
+        "name": "new beta update offices",
+        "query": "office_id in [\"12013\"]",
+        "variation": "allow-all"
+      }
+    ],
+    "defaultRule": {
+      "variation": "all-user"
+    }
+  }
+}
+
